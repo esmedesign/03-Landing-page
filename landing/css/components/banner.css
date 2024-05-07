@@ -1,0 +1,70 @@
+.hero-banner {
+background-image: linear-gradient(
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.3)
+), url(../../images/hero-image.jpg);
+height:500px;
+background-size: cover;
+justify-content: center;
+align-items: center;
+display:flex;
+flex-direction: column;
+background-position: center;
+
+}
+
+.hero-banner-content {
+  text-align: center;
+}
+
+.hero-banner-content p {
+  margin-bottom: 50px;
+}
+
+.works-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  background-color: rgb(244, 238, 236);
+}
+
+.cards-container {
+  height:500px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works-banner h1 {
+color:rgb(154, 0, 0);
+}
+
+.card {
+width:300px;
+height:350px;
+background-color: white;
+margin-left: 20px;
+margin-right: 20px;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding:20px;
+box-shadow: 2px 2px 5px #24242461;
+}
+
+.icon-image {
+  width:200px;
+  height:200px;
+}
+
+.card p {
+  color:black;
+}
+
+.card h2 {
+  margin-top: 30px;
+  color:rgb(154, 0, 0)
+}
